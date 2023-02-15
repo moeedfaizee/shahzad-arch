@@ -1,2 +1,0 @@
-# shahzad-arch
- Architechture

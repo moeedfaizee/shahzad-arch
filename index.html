@@ -1,401 +1,1386 @@
 <!DOCTYPE HTML>
-<!--
-	Aesthetic by freehtml5.co
-	Twitter: http://twitter.com/fh5co
-	URL: http://freehtml5.co
--->
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ENDESIGNSTUDIO || Pvt Ltd</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.co" />
+<html lang="en">
+    <head>
+        <!--=============== basic  ===============-->
+        <meta charset="UTF-8">
+        <title>ENDESIGN STUDIO || Pvt Ltd </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="index, follow"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <!--=============== css  ===============-->	
+<link type="text/css" rel="stylesheet" href="./pls_assets/css/reset.css">
+<link type="text/css" rel="stylesheet" href="./pls_assets/css/plugins.css">
+<link type="text/css" rel="stylesheet" href="./pls_assets/css/style.css">
+<link rel="stylesheet" href="./admin/assets/plugins/toastr/toastr.css"/>
+<!--=============== favicons ===============-->
+<link rel="apple-touch-icon" sizes="57x57" href="./admin/assets/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./admin/assets/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./admin/assets/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./admin/assets/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./admin/assets/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./admin/assets/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./admin/assets/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./admin/assets/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./admin/assets/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./admin/assets/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./admin/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./admin/assets/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./admin/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="./admin/assets/favicon/manifest.json.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./admin/assets/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<style>
+    .icon-container{
+        margin-left: 5px;
+    } 
+    @media (max-width: 767px) {                  
+        .hide-in-small-device {
+            display: none;
+        }
+        .small_width{
+            width: 50% !important;
+            padding: 5px 5px 5px 5px !important;
+        }
+        .small_social_width{
+            margin-right: 20% !important;
+        }
+    }
+    p { 
+        text-align: justify !important;
+    }
+    .social_holder{
+        float: right;
+        position: relative;
+        top: 22px;
+        left: 50px;
+    }
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121939108-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:400,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Themify Icons-->
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+  gtag('config', 'UA-121939108-1');
+</script>        <link type="text/css" rel="stylesheet" href="./pls_assets/css/modal.css">
+        <style>
+            .btn_css{
+                border: 2px solid #3d474c;
+                background: none;
+                padding: 15px 30px 15px 30px;
+                line-height: 17px;
+                cursor: pointer;
+                font-weight: 800;
+                font-size: 12px;
+                color: #3d474c;
+                font-family: 'Muli', sans-serif;
+                -webkit-appearance: none;
+                -webkit-transition: all 200ms linear;
+                -moz-transition: all 200ms linear;
+                -o-transition: all 200ms linear;
+                -ms-transition: all 200ms linear;
+                transition: all 200ms linear;
+                -webkit-appearance: none;
+                float: right;
+                margin-top: 20px;
+            }
+            .serv-item img {
+                position:relative;
+                height: 240px;
+                object-fit: contain;
+            }
+            .serv-item-inner:before {
+                background:rgba(0,0,0,0);   
+            }
+        </style>
 
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    </head>
+    <body>
+        <!-- loader -->
+        <div class="loader">
+            <div id="movingBallG">
+                <div class="movingBallLineG"></div>
+                <div id="movingBallG_1" class="movingBallG"></div>
+            </div>
+        </div>
+        <!-- loader end -->
+        <!--================= main start ================-->
+        <div id="main">
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+            <!--=============== header ===============-->	
+<header>
+    <!-- header-inner  -->
+    <div class="header-inner">
+        <!-- header logo -->
+        <div class="logo-holder">
+            <a href="#"><img src="./pls_assets/images/logo.png" alt=""></a>
+        </div>
+        <!-- header logo end -->
+        <!-- mobile nav button -->
+        <div class="nav-button-holder">
+            <div class="nav-button vis-m"><span></span><span></span><span></span></div>
+        </div>
+        <!-- mobile nav button end -->
+        <!-- navigation  -->
+        <div class="nav-holder">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="act-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="">About Us</a>
+                        <!--second level end-->
+                        <!--<ul>-->
+                            <!--                                <li >
+                                    <a href="" ></a>
+                                </li>-->
+                                <!--                        </ul>-->
+                        <!--second level end-->
+                    </li>
+                    <li>
+                        <a class="" href="#">Projects </a>
+                    </li>
+<!--                    <li>
+                        <a class="" href="">Service</a>
+                    </li>-->
+                    <!--<li>
+                        <a class="" href="#">Awards</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Publications</a>
+                    </li>-->
+<!--                    <li>
+                        <a class="" href="http://www.thepurpleinkstudio.com/#" >Blog</a>
+                    </li>-->
+                    <li>
+                        <a class="" href="#">Contact Us</a>
+                    </li>
+                
+                </nav>
+                </ul>
+                
+        </div>
+        <!-- navigation  end -->
+<!--        <div class="social_holder">
+                
+                <a>Suraj</a>
+            </div>-->
+    </div>
+    <!-- header-inner  end -->
+    <!-- share button  -->
+  
+    
+   
+    
+    
+    <div class="social pull-right small_social_width" style="margin-top: 28px;margin-right: 8%;">
+                                <a class="icon-container" href="/" target="_blank">
+                            <span class="fa  fa-facebook-square" style="font-size: 22px;"></span>
+                        </a>
+                            <a class="icon-container" href="#" target="_blank">
+                            <span class="fa fa-instagram" style="font-size: 22px;"></span>
+                        </a>
+                           <!--  <a class="icon-container" href="#" target="_blank">
+                            <span class="fa fa-youtube-square" style="font-size: 22px;"></span>
+                        </a>-->
+                              
+    </div>
+    <!-- share  end-->
+</header>            <!--=============== wrapper ===============-->	
+            <div id="wrapper">
+                <!-- content-holder  -->
+                <div class="content-holder">
+                    <!-- Page title -->
+                    <div class="dynamic-title">Home Slider</div>
+                    <!-- Page title  end--> 
+                    <!-- content  -->
+                    <div class="content full-height no-bg-con">
+                        <!-- Hero section   -->
+                        <div class="hero-wrap" >
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+                            <!-- hero-wrap-image-slider-holder  end -->
+                            <div class="hero-wrap-text-slider-holder">
+                                <!-- hero-wrap-image-slider  -->
+                                <div class="hero-wrap-text-slider">
+                                                                            <div class="item">
+                                            <div class="bg"  
+                                                 data-bg="./admin/uploads/slide_images/slider_1.jpg" data-top-bottom="transform: translateY(300px);" 
+                                                 data-bottom-top="transform: translateY(-300px);">
+                                                <img src="./admin/assets/uploads/slide_images/slider_1.jpg"></div>
+                                            <div class="hero-wrap-item 
+                                                 center-item">
+                                                <h2> ENDESIGN STUDIO</h2>
+                                                <h3 style="font-weight: 400;">ARCHITECTURE | INTERIOR | URBAN | LANDSCAPE</h3>
+                                            </div>
+                                        </div>
+                                                                                <div class="item">
+                                            <div class="bg"  
+                                                 data-bg="./admin/uploads/slide_images/slider_2" data-top-bottom="transform: translateY(300px);" 
+                                                 data-bottom-top="transform: translateY(-300px);">
+                                                 <img src="./admin/assets/uploads/slide_images/slider_2.jpg"></div>
+                                            <div class="hero-wrap-item 
+                                                 center-item">
+                                                <h2> ENDESIGN STUDIO</h2>
+                                                <h3 style="font-weight: 400;">ARCHITECTURE | INTERIOR | URBAN | LANDSCAPE</h3>
+                                            </div>
+                                        </div>
+                                                                                <div class="item">
+                                            <div class="bg"  
+                                                 data-bg="./admin/uploads/slide_images/slider_3 data-top-bottom="transform: translateY(300px);" 
+                                                 data-bottom-top="transform: translateY(-300px);">
+                                                 <img src="./admin/assets/uploads/slide_images/slider_3.jpg"></div>
+                                            <div class="hero-wrap-item 
+                                                 center-item">
+                                                <h2> ENDESIGN STUDIO</h2>
+                                                <h3 style="font-weight: 400;">ARCHITECTURE | INTERIOR | URBAN | LANDSCAPE</h3>
+                                            </div>
+                                        </div>
+    
+                                </div>
+                                <!-- hero-wrap-text-slider  end -->
+                                <!--  navigation -->
+                                <div class="customNavigation fhsln">
+                                    <a class="prev-slide transition"><i 
+                                            class="fa fa-angle-left"></i></a>
+                                    <a class="next-slide transition"><i 
+                                            class="fa fa-angle-right"></i></a>
+                                </div>
+                                <!--  navigation end-->
+                            </div>
+                            <!-- hero-wrap-image-text-holder  end -->
 
-	</head>
-	<body>
-		
-	<div class="gtco-loader"></div>
-	
-	<div id="page">
+                            <!-- hero-wrap-image-slider-holder  end -->
+                            <div class="hero-wrap-image-slider-holder">
+                                <div class="overlay"></div>
+                                <!-- hero-wrap-image-slider  -->
+                                <div class="hero-wrap-image-slider">
+                                    
+                                        <div class="item">
+                                            <div class="bg"  data-bg="./admin/uploads/slide_images/slider_1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                        </div>
 
-		<nav class="gtco-nav" role="navigation">
-			<div class="gtco-container">
-				
-				<div class="row">
-					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo">
-					     <a href="index.html">
-							<img src="./images/logo.png" width="50px" height="100px"></div>
-							
-					</div>
-					
-					
-					<div class="col-xs-10 text-right menu-1">
-						
-						
-						
-						<ul>
-							
-							<li class="active"><a href="index.html">HOME</a></li>
-							<li class="has-dropdown">
-								<a href="services.html">PROJECTS</a>
-								<ul class="dropdown">
-									<li><a href="#"> RESIDENTIAL</a></li>
-									<li><a href="#">COMMERCIAL</a></li>
-									<li><a href="#"> INTERIOR DESIGN</a></li>
-									<li><a href="#">LANDSCAPE DESIGN</a></li>
-									<li><a href="#"> FACADE DESIGN</a></li>
-									<li><a href="#">URBAN DESIGN</a></li>
-									<li><a href="#">INDUSTRIAL </a></li>
-									<li><a href="#">HOSPITAL </a></li>
-								</ul>
-							</li>
-							<li class="has-dropdown">
-								<a href="services.html">SERVICES</a>
-								<ul class="dropdown">
-									<li><a href="#">ABOUT US</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
-							<li class="has-dropdown">
-								<a href="#">TEAM</a>
-								<ul class="dropdown">
-									<li><a href="#">HTML5</a></li>
-									<li><a href="#">CSS3</a></li>
-									<li><a href="#">Sass</a></li>
-									<li><a href="#">jQuery</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">CONTACT</a></li>
-						</ul>
+                                        
+                                        <div class="item">
+                                            <div class="bg"  data-bg="./admin/uploads/slide_images/slider_2.jpg data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                        </div>
 
-					</div>
-				</div>
-				
-			</div>
-		</nav>
+                                        
+                                        <div class="item">
+                                            <div class="bg"  data-bg="./admin/uploads/slide_images/slider_3jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                        </div>
+                                        
+                                </div>
+                                <!-- hero-wrap-image-slider  end -->
+                            </div>
+                            <!-- hero-wrap-image-slider-holder  end -->
 
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="owl-carousel owl-carousel-fullwidth">
-						<div class="item">
-							<a href="#">
-								<img src="images/slider_1.jpg" alt="Free Website Template by FreeHTML5.co">
-								<div class="slider-copy">
-									<h2>Architecture #1</h2>
-								</div>
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="images/slider_2.jpg" alt="Free Website Template by FreeHTML5.co">
-								<div class="slider-copy">
-									<h2>Architecture #1</h2>
-								</div>
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="images/slider_3.jpg" alt="Free Website Template by FreeHTML5.co">
-								<div class="slider-copy">
-									<h2>Architecture #1</h2>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                        </div>
+                        <!-- Hero section   end -->
+                    </div>
+                    <!-- content end -->
+                    <!-- content  -->
+                    <div class="content" id="about">
+                        <section style="padding-bottom: 0px" id="aboutus" data-anchor="aboutus">
+                            <!-- section number   -->
+                            <!--<div class="sect-subtitle right-align-dec" data-top-bottom="transform: translateY(200px);" data-bottom-top="transform: translateY(-200px);"><span>01</span></div>-->
+                            <!-- section number  end  -->
+                            <!--  container  --> 
+                            <div class="container" style="margin-bottom: 30px;"  >
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="section-title left-align-dec dec-title" style="padding-bottom: 0px;"><span><strong>About US</strong></span></h3>
+                                    </div>
+                                </div>
+                                <div class="row" >
+                                    <div class="col-md-5">
+                                        <!-- single slider  -->
+                                        <div class="parallax-box slider-box " style="left: 0%;">
+                                            <div class="single-slider-holder">
+                                                <div class="single-slider" data-loppsli="1">
+                                                    
+                                                        <div class="item">
+                                                            <img src="./admin/uploads/about_us_images/174c1032ab40dabbfbb016fa64b3daf9.jpg" alt="">
+                                                        </div>
+                                                        
+                                                        <div class="item">
+                                                            <img src="./admin/uploads/about_us_images/8e20380d6838a12f057035de4d898587.jpg" alt="">
+                                                        </div>
 
-		<div class="gtco-section">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
-						<h2>Work</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-					</div>
-				</div>
-				<div class="row">
+                                                        
+                                                        <div class="item">
+                                                            <img src="./admin/uploads/about_us_images/cf8873cbb9b0e1e1dee5c6dfc376a9fc.jpg" alt="">
+                                                        </div>
 
-					<div class="col-md-12">
-						<div class="owl-carousel owl-carousel-carousel">
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_1.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">New York Arena</h2></a>
-									<p class="role">New York</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_2.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Eagle Park</h2></a>
-									<p class="role">London</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_3.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Nationals Park</h2></a>
-									<p class="role">Paris, France</p>
-								</div>
-							</div>
+                                                        
+                                                        <div class="item">
+                                                            <img src="./admin/uploads/about_us_images/8aa4bf7c4bbc752eea94291a4c034644.jpg" alt="">
+                                                        </div>
 
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_1.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">New York Arena</h2></a>
-									<p class="role">New York</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_2.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Eagle Park</h2></a>
-									<p class="role">London</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_3.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Nationals Park</h2></a>
-									<p class="role">Paris, France</p>
-								</div>
-							</div>
+                                                        
+                                                        <div class="item">
+                                                            <img src="./admin/uploads/about_us_images/8f1339bb61574c1d9d572ded5178f215.jpg" alt="">
+                                                        </div>
 
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_1.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">New York Arena</h2></a>
-									<p class="role">New York</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_2.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Eagle Park</h2></a>
-									<p class="role">London</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_3.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Nationals Park</h2></a>
-									<p class="role">Paris, France</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<!-- END Work -->
+                                                        
+                                                        <div class="item">
+                                                            <img src="./admin/uploads/about_us_images/841078b6b6aa420afb375911abeb389b.jpg" alt="">
+                                                        </div>
 
-		<div class="gtco-section">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-6 gtco-news">
-						<h2>News</h2>	
-						<ul>
-							<li>
-								<a href="#">
-									<span class="post-date">September 10, 2016</span>
-									<h3>Manila Bridge Re-construction</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod...</p>
-								</a>
-							</li>
+                                                        
+                                                </div>
+                                                <div class="customNavigation ssn">
+                                                    <a class="prev-slide transition"><i class="fa fa-angle-left"></i></a>
+                                                    <a class="next-slide transition"><i class="fa fa-angle-right"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- single slider  end -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <!-- section title  -->
+                                        <!--<h2 class="section-title" style="font-weight: bold;margin-top: -15px;">About Us</h2>-->
+                                        <!-- section title  end -->
+                                        <p>
+                                            <p class="MsoNormal"><i><span style="font-size: 12pt; line-height: 115%; color: rgb(0, 32, 96); border: 1pt none windowtext; padding: 0in; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+                                                Established in 2013 in Malegaon,
+                                                 <b>ENDESIGN STUDIO</b> is a multifaceted architecture practice that is Young,Experimental and Ambitious.
+                                                  Conceived by <b>AR ASIF SHAHZAD</b> and <b>AR AAMIR MALIK</b>,
+                                                  ENDESIGN STUDIO PRIVATE
+                                                  LIMITED has growning to a Highly Collaborative Practice,with a core group of Design Associates who bring in varied skillsets to the process.                           
+                                                   with a </span></i><i><span lang="EN-US" style="font-size: 12pt; line-height: 115%; color: rgb(0, 32, 96); border: 1pt none windowtext; padding: 0in; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+                                                    core group of
+Design Associates who bring in varied skillsets to the process.</span></i><i><span style="font-size: 12pt; line-height: 115%; color: rgb(0, 32, 96); border: 1pt none windowtext; padding: 0in; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><o:p></o:p></span></i></p><p class="MsoNormal"><i><span style="font-size: 12pt; line-height: 115%; color: rgb(0, 32, 96); border: 1pt none windowtext; padding: 0in; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+    •	The firm headed by <b>AR ASIF SHAHZAD</b> and <b>AR AMIR MALIK</b> <u>create a versatile body of work ranging</u> from architecture and interiors of residences and corporate offices to retail and hospitality spaces. They have in the past [NUMBER OF EXPERIENCE ] years of practice.<o:p></o:p></span></i></p><p class="MsoNormal"><i><span style="font-size: 12pt; line-height: 115%; color: rgb(0, 32, 96); border: 1pt none windowtext; padding: 0in; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+        AT <b>ENDESIGN STUDIO PRIVATE LIMITED,</b> WE ARE CONTEXTUALISTS WHO 
+BELIEVE THAT ARCHITECTURE SHOULD BE ROOTED IN ONE’S ENVIRONMENT AND 
+TO A PARTICULAR SITE. AFTER WALKING THROUGH A PARTICULAR SITE WE
+ALWAYS LIKE TO ASK OURSELVES – ON WHICH KIND OF BUILDING DOES THIS SITE 
+REALLY WANT TO SEE? WHILE WORK WITH AN INTERNATIONAL STYLE, WE DRAW 
+INSPIRATION FROM TRADITIONAL , MODERN , CLASSIC STYLE CONCEPTS, CRAFT 
+AS WELL AS LOCAL MATERIAL. WE INTERPRET THE SAME WITH A 
+CONTEMPORARY DESIGN APPROACH. OUR DESIGN IS EXPERIENTIAL AND 
+ATTEMPTS TO MODULATE SPACE TO CREATE BEAUTIFUL, PEACEFUL OR 
+DRAMATIC SPACES. OUR ARCHITECTURE IS CLIMATE SENSITIVE AND THE 
+RELATIONSHIP BETWEEN BUILT FORM AND THE EXTERNAL 
+ENVIRONMENT CONSTANT. WE WORK IN A HANDS-ON WAY WORKING CLOSELY<br>
+<br> 
+ </span></i><i><span lang="EN-US" style="font-size:12.0pt;line-height:115%;color:#002060">
+    PRINCIPAL ARCHITECT AMIR MALIK STUDIED ARCHITECTURE AT THE NDMVP COLLEGE OF ARCHITECTURE , NASHIK. HE JOINED THE FIRM VERY EARLY IN HIS CAREER IN 
+2015 AFTER INTERNING WITH SOME OF THE OTHER PROMINENT ARCHITECTURAL VOICES IN THE CITY. OVER THE PAST 10 YEARS HE HAS BEEN INTEGRAL TO THE EVOLUTION OF THE FIRM. 
+HE IS CURRENTLY A PRINCIPAL AT ENDESIGN STUDIO. AMIR’S EYE FOR DESIGN DETAILING AND EXPERTISE IN CONSTRUCTION TECHNOLOGIES HAS ENABLED INTERPRETING THE FIRMS’ VOCABULARY IN NEW AND INNOVATIVE WAYS.
+ <o:p></o:p></span></i></p><p class="MsoNormal"></p>
+                                </div>
+                                </div>
+                            </div>
+                            <!--  container end  -->  
+                        </section>
+                    </div>
 
-							<li>
-								<a href="#">
-									<span class="post-date">September 10, 2016</span>
-									<h3>Manila Bridge Re-construction</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod...</p>
-								</a>
-							</li>
+                    <div class="content">
+                        <section style="padding: 0px 0;" >
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 class="section-title left-align-dec dec-title" style="padding-bottom: 0px;"><span><strong> Team</strong></span></h2>
+                                    </div>
+                                </div>
+                                <div class="services-holder" style="margin-top: 30px;border-bottom:none">
+                                    
 
-							<li>
-								<a href="#">
-									<span class="post-date">September 10, 2016</span>
-									<h3>Manila Bridge Re-construction</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod...</p>
-								</a>
-							</li>
-						</ul>
-						<p><a href="#" class="btn btn-sm btn-special">More News</a></p>
-					</div>
-					<!-- END News -->
-					<div class="col-md-5 col-md-push-1 gtco-testimonials">
-						<h2>Testimonials</h2>
-						<blockquote>
-							<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.&ldquo;</p>
-							<p class="author"><cite>&mdash; John Doe Dueller</cite></p>
-						</blockquote>
-						<blockquote>
-							<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.&ldquo;</p>
-							<p class="author"><cite>&mdash; John Doe Dueller</cite></p>
-						</blockquote>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- END  -->
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname=" AAMIR MALIK"  data-designation="Co-Founder and Principal Architect" data-bio='<p>Akshay Heranjal is the Co-Founder and Principal Architect of ‘The Purple Ink Studio’, Bangalore. After having graduated from B.V.B Hubli, he has been privileged to have worked under 3 completely different ‘gurus’, Karan Grover, Sameep Padora and Sanjay Puri, all of whom, who helped him mould into what the studio stands for. Having always believed the need to learn under a master, they would always hold a special place in his architectural journey.<br></p><p><b>Contact:&nbsp;akshay@thepurpleinkstudio.com</b></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/assets/uploads/team_member_profile/AR AAMIR MALIK.JPG"   alt="">
 
-		<div class="gtco-section gto-features">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="feature-left">
-							<i class="ti-zip icon"></i>
-							<div class="copy">
-								<h3>Architect</h3>
-								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
-								<p><a href="#" class="gtco-more">Learn more</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left">
-							<i class="ti-hummer icon"></i>
-							<div class="copy">
-								<h3>Planning</h3>
-								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
-								<p><a href="#" class="gtco-more">Learn more</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left">
-							<i class="ti-plug icon"></i>
-							<div class="copy">
-								<h3>Parks &amp; Events</h3>
-								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
-								<p><a href="#" class="gtco-more">Learn more</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">AR AAMIR MALIK</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Co-Founder and Principal Architect</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
 
-		<footer id="gtco-footer" class="gtco-section" role="contentinfo">
-			<div class="gtco-container">
-				<div class="row row-pb-md">
-					<div class="col-md-4 gtco-widget gtco-footer-paragraph">
-						<h3>Beryllium</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod.</p>
-					</div>
-					<div class="col-md-4">
-						<div class="row">
-							<div class="col-md-6 gtco-footer-link">
-								<h3>Links</h3>
-								<ul class="gtco-list-link">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Features</a></li>
-									<li><a href="#">Products</a></li>
-									<li><a href="#">Testimonial</a></li>
-									<li><a href="#">Contact</a></li>
-								</ul>
-							</div>
-							<div class="col-md-6 gtco-footer-link">
-								<h3>Work</h3>
-								<ul class="gtco-list-link">
-									<li><a href="#">New York Arena</a></li>
-									<li><a href="#">Eagle Park</a></li>
-									<li><a href="#">Nationals Park</a></li>
-									<li><a href="#">Manila Park</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 gtco-footer-subscribe">
-						<form class="form-inline">
-						  <div class="form-group">
-						    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-						    <input type="email" class="form-control" id="" placeholder="Email">
-						  </div>
-						  <button type="submit" class="btn btn-primary">Send</button>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="gtco-copyright">
-				<div class="gtco-container">
-					<div class="row">
-						<div class="col-md-6 text-left">
-							<p><small>&copy; 2022 @ All Rights Reserved. </small></p>
-						</div>
-						<div class="col-md-6 text-right">
-							<p><small>Designed by <a href="http://freehtml5.co/" target="_blank">Faizee Moeed</a> Demo Images: <a href="http://pixeden.com/" target="_blank">Pixeden</a> &amp; <a href="http://unsplash.com" target="_blank">Unsplash</a></small> </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- END footer -->
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Aditi Pai"  data-designation="Co-Founder and Principal Architect" data-bio='<p>Aditi Pai Heranjal is the Co-Founder and heads the Landscape + Sustainability division at ‘The Purple Ink Studio’. She has her Bachelor’s degree from Gogte Institute of Technology, Belgaum and a Master Degree in Landscape Architecture from CEPT University, Ahmedabad. She trained as an intern with Integrated Design (InDe), Bengaluru headed by Landscape architect, Mohan Rao. She later continued working with him as an Associate Architect and worked on various environmental design projects involving landscape design and sustainability.<br></p><p><b>Contact: aditi@thepurpleinkstudio.com</b><br></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/assets/uploads/team_member_profile/AR ASIF SHAHZAD.jpg"   alt="">
 
-	</div>
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;"> AR ASIF SHAHZAD</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Co-Founder and Principal Architect</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Nishita Bhatia"  data-designation="Associate Principal" data-bio='<p>Nishita Bhatia is a Principal Associate at ‘The Purple Ink Studio’ and has been a part of the practice since the beginning . She graduated as an architect from B.V.C.O.A , Pune. She later trained with Ar. Vivek Dixit in Pune for Sustainable architecture. Post internship she has worked on rural and redevelopment projects in Madhya Pradesh. She has also worked as an Architect at Sanjay Puri Architects, Mumbai where she had the opportunity to work on several large scale projects.<br></p><p><b>Contact: nishita@thepurpleinkstudio.com</b></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/19e3ec5239fd62e40e0b121789d3f427.jpg"   alt="">
 
-	<!-- Main -->
-	<script src="js/main.js"></script>
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">######</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Associate Principal</span>
+                                            </div>
+                                        </a>--->
+                                        <!-- 1 end-->
+                                        
 
-	</body>
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Arpita Pai"  data-designation="Associate Principal" data-bio='<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt">Contact: arpita@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/73be4726d7ffbb778be4cf14f1a036d8.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Associate Principal</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Rajvi Shah"  data-designation="Senior Interior Designer" data-bio='<p>Email : rajvi@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/d9f226f8261c8ddfc876e181dc369aea.JPG"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">ANSARI SHOAIB AHMAD</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Senior Interior Designer</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Jayati Kota"  data-designation="Landscape Architect" data-bio='<p>Contact : jayati@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/assets/uploads/team_member_profile/AR ABDUL MAJID.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">AR ABDUL MAJID</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Assistant Architect</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Nivya Joseph"  data-designation="Project Architect" data-bio='<p>Contact : nivya@thepurpleinkstudio.com<br></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/assets/uploads/team_member_profile/SITE SUPERVISUOR.jpeg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">ENG. MOEEN</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Site Supervisuor</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Samruddhi Shimpi"  data-designation="Project Architect" data-bio='<p>Contact : samruddhi@thepurpleinkstudio.com<br></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/977c987da09869ac51a8b44f5dc82198.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;"> ABDUL MAJEED</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Site Supervisuor</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Jaikumar"  data-designation="Project Manager" data-bio='<p>Contact: jaikumar@thepurpleinkstudio.<wbr>com<br></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/4feeb4ffe2d1a63a3331e07cbc20b8f1.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">AABID AHMAD</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Site Supervisuor</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Babitha Yeldho"  data-designation="Head - QS & Billing" data-bio='<p>Email : babitha@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/f59afcac46a8972ac4b1630688fa7ef7.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">TAHIR AHMAD</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Site Supervisuor</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <a class="serv-item small_width"   data-teamname="Aarti Rajaram"  data-designation="Project Architect" data-bio='<p>Contact : aarti@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/44f36a0d9b780e4735ab9a17741578f3.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">AASIM AHMAD</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Site Supervisuor</span>
+                                            </div>
+                                        </a>
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Anareen Reynolds"  data-designation="Interior Designer" data-bio='<p>Contact : anareen@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/7606de941c8b2b1c1474a02b8dbb355c.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Interior Designer</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Siddharth Waze"  data-designation="Project Architect" data-bio='<p>Contact : siddharth@thepurpleinkstudio.com<br></p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/99b750a5a54b3bf00fd99c76beb917cb.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Kavya Gudihal"  data-designation="Project Architect" data-bio='<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt">Contact: kavya@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/0f9c61cf3fc28c740279822ee5f51c88.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Divya Nagaraj"  data-designation="Project Architect" data-bio='<p>Email : divya@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/6bf9ac0074d71d81b72b23b226d2d4bc.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Ullas M"  data-designation="Project Architect" data-bio='<p>Contact : ullas@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/264719c5cb4413c31f4a33ca0f2f53d6.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Niraj Navalakha"  data-designation="Project Architect" data-bio='<p>Email : niraj@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/c735e97f5ba67482c084af8bb8d57e00.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Manvi Gupta"  data-designation="Project Architect" data-bio='<p>Email : manvi@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/a9de733519f05bdd0f5c4396cb9aa988.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Dhilihp"  data-designation="Project Architect" data-bio='<p>Email : dhilihp@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/f648ff2549d50fe38dd732d94a4797f5.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Architect</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Sujith Kamath"  data-designation="Project Manager" data-bio='<p>Contact : sujith@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/687dcb41d2983d29843ed03b7bf5674e.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Manager</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Deepak Kumar"  data-designation="Project Engineer" data-bio='<p>Contact : deepak@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/1c47b8c71ce27bd5f95c7e0c8619a359.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Project Engineer</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+
+                                        <!-- 1 -->
+                                        <!--<a class="serv-item small_width"   data-teamname="Vishakha Kejriwal"  data-designation="Interior Designer" data-bio='<p>Contact : vishakha@thepurpleinkstudio.com</p>' data-toggle="modal" style="width: 20%;cursor: pointer" onclick="display_data(this)" >
+                                            <div class="serv-item-inner" style="margin-bottom: 5px;">
+                                                <img  src="./admin/uploads/team_member_profile/1a4f370cd09ac045d069932c6ee27edc.jpg"   alt="">
+
+                                            </div>
+                                            <div >
+                                                <h3 style="text-align:left;font-size: 19px;padding-bottom: 4px;">#####</h3>
+                                                <span style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important">Interior Designer</span>
+                                            </div>
+                                        </a>-->
+                                        <!-- 1 end-->
+                                        
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- serv-post  -->     
+                                        <div class="serv-post">
+                                                                                            <!-- 1 -->
+                                                <div id="3" class="serv-details">
+                                                    <h3>Akshay Heranjal</h3>
+                                                                                                            <p>Co-Founder and Principal Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Akshay Heranjal is the Co-Founder and Principal Architect of ‘The Purple Ink Studio’, Bangalore. After having graduated from B.V.B Hubli, he has been privileged to have worked under 3 completely different ‘gurus’, Karan Grover, Sameep Padora and Sanjay Puri, all of whom, who helped him mould into what the studio stands for. Having always believed the need to learn under a master, they would always hold a special place in his architectural journey.<br></p><p><b>Contact:&nbsp;akshay@thepurpleinkstudio.com</b></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="4" class="serv-details">
+                                                    <h3>Aditi Pai</h3>
+                                                                                                            <p>Co-Founder and Principal Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Aditi Pai Heranjal is the Co-Founder and heads the Landscape + Sustainability division at ‘The Purple Ink Studio’. She has her Bachelor’s degree from Gogte Institute of Technology, Belgaum and a Master Degree in Landscape Architecture from CEPT University, Ahmedabad. She trained as an intern with Integrated Design (InDe), Bengaluru headed by Landscape architect, Mohan Rao. She later continued working with him as an Associate Architect and worked on various environmental design projects involving landscape design and sustainability.<br></p><p><b>Contact: aditi@thepurpleinkstudio.com</b><br></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="5" class="serv-details">
+                                                    <h3>Nishita Bhatia</h3>
+                                                                                                            <p>Associate Principal</p>
+                                                                                                                                                                    <p>
+                                                            <p>Nishita Bhatia is a Principal Associate at ‘The Purple Ink Studio’ and has been a part of the practice since the beginning . She graduated as an architect from B.V.C.O.A , Pune. She later trained with Ar. Vivek Dixit in Pune for Sustainable architecture. Post internship she has worked on rural and redevelopment projects in Madhya Pradesh. She has also worked as an Architect at Sanjay Puri Architects, Mumbai where she had the opportunity to work on several large scale projects.<br></p><p><b>Contact: nishita@thepurpleinkstudio.com</b></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="9" class="serv-details">
+                                                    <h3>Arpita Pai</h3>
+                                                                                                            <p>Associate Principal</p>
+                                                                                                                                                                    <p>
+                                                            <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt">Contact: arpita@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="37" class="serv-details">
+                                                    <h3>Rajvi Shah</h3>
+                                                                                                            <p>Senior Interior Designer</p>
+                                                                                                                                                                    <p>
+                                                            <p>Email : rajvi@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="26" class="serv-details">
+                                                    <h3>Jayati Kota</h3>
+                                                                                                            <p>Landscape Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : jayati@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="24" class="serv-details">
+                                                    <h3>Nivya Joseph</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : nivya@thepurpleinkstudio.com<br></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="25" class="serv-details">
+                                                    <h3>Samruddhi Shimpi</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : samruddhi@thepurpleinkstudio.com<br></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="16" class="serv-details">
+                                                    <h3>Jaikumar</h3>
+                                                                                                            <p>Project Manager</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact: jaikumar@thepurpleinkstudio.<wbr>com<br></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="33" class="serv-details">
+                                                    <h3>Babitha Yeldho</h3>
+                                                                                                            <p>Head - QS & Billing</p>
+                                                                                                                                                                    <p>
+                                                            <p>Email : babitha@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="28" class="serv-details">
+                                                    <h3>Aarti Rajaram</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : aarti@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="27" class="serv-details">
+                                                    <h3>Anareen Reynolds</h3>
+                                                                                                            <p>Interior Designer</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : anareen@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="23" class="serv-details">
+                                                    <h3>Siddharth Waze</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : siddharth@thepurpleinkstudio.com<br></p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="7" class="serv-details">
+                                                    <h3>Kavya Gudihal</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt">Contact: kavya@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="34" class="serv-details">
+                                                    <h3>Divya Nagaraj</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Email : divya@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="30" class="serv-details">
+                                                    <h3>Ullas M</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : ullas@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="38" class="serv-details">
+                                                    <h3>Niraj Navalakha</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Email : niraj@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="39" class="serv-details">
+                                                    <h3>Manvi Gupta</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Email : manvi@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="35" class="serv-details">
+                                                    <h3>Dhilihp</h3>
+                                                                                                            <p>Project Architect</p>
+                                                                                                                                                                    <p>
+                                                            <p>Email : dhilihp@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="31" class="serv-details">
+                                                    <h3>Sujith Kamath</h3>
+                                                                                                            <p>Project Manager</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : sujith@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="32" class="serv-details">
+                                                    <h3>Deepak Kumar</h3>
+                                                                                                            <p>Project Engineer</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : deepak@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                                                                <!-- 1 -->
+                                                <div id="29" class="serv-details">
+                                                    <h3>Vishakha Kejriwal</h3>
+                                                                                                            <p>Interior Designer</p>
+                                                                                                                                                                    <p>
+                                                            <p>Contact : vishakha@thepurpleinkstudio.com</p>                                                        </p>
+                                                                                                        </div>
+                                                <!-- 1 end --> 
+                                                
+
+                                        </div>
+                                        <!-- serv-post end-->
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- content end -->
+                    <!-- content  end  --> 
+                    <div class="content">
+                        <section style="padding: 0px;" id="projectp" data-anchor="projectp">
+
+                            <!--  container  -->
+                            <div class="container">
+                                <!--  section title -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 class="section-title left-align-dec dec-title" style="padding-bottom: 10px;">
+                                            <!--<span><strong>Projects</strong></span></h2>
+                                    </div>
+                                </div>-->
+                                <!--  section title end  -->
+                                <!--  Parallax items  -->
+                                <!-- 1 -->
+
+
+
+                            </div>
+                            <!--  container  end -->
+                        </section>
+                    </div>
+
+                    <!--<div class="content">
+
+                        <section style="padding: 30px 0;">
+                            <div class="container" id="projects_display">
+
+                            </div>
+                        </section>
+                    </div>-->
+                    <!-- content end -->
+
+                    <div class="content">
+                        <section style="padding-bottom: 0px" id="awardsp" data-anchor="awardsp">
+                            <!-- section number   -->
+                            <!--<div class="sect-subtitle right-align-dec" data-top-bottom="transform: translateY(200px);" data-bottom-top="transform: translateY(-200px);"><span>01</span></div>-->
+                            <!-- section number  end  -->
+                            <!--  container  --> 
+                            <div class="container" style="margin-bottom: 30px;"  >
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="section-title left-align-dec dec-title" style="padding-bottom: 0px;">
+                                            <!--<span><strong>Awards</strong></span></h3>
+                                    </div>
+                                </div>
+                                <div class="row" >
+                                    <div class="col-md-12" id="awards_display">
+                                         single slider  -->
+                                        <!-- team -->
+
+                                        <!-- team end  -->     
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  container end  -->  
+                        </section>
+                    </div>
+
+                    <div class="content">
+                        <section style="padding-bottom: 0px;padding: 0px 0;" id="publicationsp" data-anchor="publicationsp">
+                            <!-- section number   -->
+                            <!--<div class="sect-subtitle right-align-dec" data-top-bottom="transform: translateY(200px);" data-bottom-top="transform: translateY(-200px);"><span>01</span></div>-->
+                            <!-- section number  end  -->
+                            <!--  container  --> 
+                            <div class="container" style="margin-bottom: 30px;"  >
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="section-title left-align-dec dec-title" style="padding-bottom: 0px;">
+                                            <!--<span><strong>Publications</strong></span></h3>
+                                    </div>
+                                </div>
+                                <div class="row" >
+                                    <div class="col-md-12" id="publication_display">
+                                         single slider  -->
+                                        <!-- team -->
+
+                                        <!-- team end  -->     
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  container end  -->  
+                        </section>
+                    </div>
+
+                    <div class="content">
+                        <section style="padding-bottom: 0px;padding: 0px 0;" id="contactsp" data-anchor="contactsp">
+                            <!-- section number   -->
+                            <!--<div class="sect-subtitle right-align-dec" data-top-bottom="transform: translateY(200px);" data-bottom-top="transform: translateY(-200px);"><span>01</span></div>-->
+                            <!-- section number  end  -->
+                            <!--  container  --> 
+                            <div class="container" style="margin-bottom: 30px;"  >
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="section-title left-align-dec dec-title" style="padding-bottom: 0px;"><span><strong>Contact Us</strong></span></h3>
+                                    </div>
+                                </div>
+                                <div class="row" >
+                                    <div class="col-md-12">
+                                        <div class="contact-details">
+                                            <div class="row">
+
+                                                <div class="col-md-3">
+                                                    <h4>Address: </h4>
+                                                    <ul>
+                                                        <li>NA </li>
+                                                        <li>NA</li>
+                                                        <li>NA</li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <h4>Contact Number: </h4>
+                                                    <ul>
+                                                        <li>+91-00000000</li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <h4>Media &amp; Business Enquiries: </h4>
+
+                                                            <a href="#">na@gmail.com</a><br> 
+                                                    <a href="#">na@gmail.com</a><br>                                                                                                                <p style="    font-size: 10px;">* Please do not mail any career request on these emails</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <h4>Find Us On : </h4>
+                                                                <a style="font-size: 20px;" class="contact-profile__social-icon" href="#" target="_blank">
+                                                            <span class="fa fa-facebook-square"></span>
+                                                        </a>
+                                                            <a style="font-size: 20px;" class="contact-profile__social-icon" 
+                                                            href="#" target="_blank">
+                                                            <span class="fa fa-instagram"></span>
+                                                        </a>
+                                                                <!--<a style="font-size: 20px;" class="contact-profile__social-icon" 
+                                                                href="#" target="_blank">
+                                                            <span class="fa fa-youtube-square"></span>
+                                                        </a>-->
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 style=" float: left;font-size: 14px;text-transform: uppercase;letter-spacing: 1px; font-weight: bold;    margin-top: 40px;">Careers: </h4>
+                                        <div class="clearfix"></div>
+                                        <p style="margin-top: 30px">
+                                            Please mail your applications for job/internship to na@gmail.com <br>
+                                            *Note: Your profile or portfolio should not be more than 5MB.
+                                        </p>
+                                        <!-- contact form -->
+                                        <div class="contact-form-holder" style="margin-top: 0px;display: none" >
+                                            <div id="contact-form">
+                                                <div id="message"></div>
+                                                <form method="post" action="" enctype="multipart/form-data" >
+                                                    <input name="name" type="text" id="name"   placeholder="Name *" >
+                                                    <input name="email" type="text" id="email"  placeholder="E-mail *" >
+                                                    <input name="subject" type="text" id="subject"  placeholder="Subject *" >
+                                                    <input type="text"  name="contact_number" id="contact_number" placeholder="Phone *" value=""/>            
+                                                    <textarea name="message"  id="message" placeholder="Message" style="height: 50px;" ></textarea> 
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p >Resume/Portfolio<br>
+                                                                <span style="font-size:10px">* File should be less than 5 MB</span>
+                                                            </p>
+
+                                                        </div>
+                                                        <div class="col-md-4" >
+                                                            <input type="file"  name="file_attachment" id="file_attachment" onchange="ValidateSize(this)" style="padding-bottom: 10px;" > 
+                                                        </div>
+                                                    </div>
+                                                    <hr style="margin-bottom: 10px">
+
+                                                    <button type="submit" name="contact_submit"  id="submit" onclick="return validate_form()"   >Send</button>          										           											
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- contact form  end-->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 style=" float: left;font-size: 14px;text-transform: uppercase;letter-spacing: 1px; font-weight: bold;    margin-top: 40px;">Location: </h4>
+                                        <div class="map-box">
+                                            <div id="map" style="height: 400px;width: 100%">
+
+                                            </div>
+                                            <a target="new" style="padding-bottom: 10px" type="button" href="#" class="btn_css" >
+                                        <span>Get Directions </span></a>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  container end  -->  
+                        </section>
+                    </div>
+
+
+
+                    <!-- content footer-->
+                    <div class="height-emulator"></div>
+<footer class="content-footer">
+    <!--  container  --> 
+    <div class="container">
+        
+
+            
+        <!-- Footer copyright -->
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="footer-wrap">
+                    <span class="copyright">  &#169; ENDESIGN STUDIO  2023.  All rights reserved.  
+                    </span>
+                    <span class="to-top">To Top</span>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        <!-- Footer copyright end -->
+    </div>
+    <!--  container  end --> 
+    <!-- Hover animation  -->
+    <canvas class="particular"></canvas>
+    <!-- Hover animation  end -->
+</footer>
+<!-- content footer end -->
+                    <!-- content footer end -->
+
+                </div>
+                <!-- content-holder  end-->
+            </div>
+            <!-- wrapper end -->
+            <!-- Fixed footer -->
+            <footer class="fixed-footer" style="display: none">
+    <div class="footer-social">
+        <ul>
+            <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
+        </ul>
+    </div>
+    <!-- Header  title --> 
+    <div class="footer-title">
+        <h2><a  href="#"></a></h2>
+    </div>
+    <!-- Header  title  end-->
+</footer>            <!-- Fixed footer end-->
+
+        </div>
+        <!-- Modal HTML -->
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title"><b>Team</b></h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3 id="modal_team_name" style="text-align:left;font-size: 19px;padding-bottom: 4px;"></h3>
+                        <span id="modal_team_designation" style="font-family: 'Muli', sans-serif;font-weight: 300;font-size: 11px;float: left !important;text-align: left !important"></span>
+                        <br>
+                        <p id="modal_team_bio" style="margin-top: 20px;text-align: justify"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" style="float: right" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main end -->
+        <!--=============== scripts  ===============-->
+        <input type="hidden" id="hidden_base_url" value="#" />
+<script type="text/javascript" src="/pls_assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/pls_assets/js/plugins.js"></script>
+<script type="text/javascript" src="/pls_assets/js/scripts.js"></script>
+<script src="/admin/assets/plugins/toastr/toastr.js"></script>
+<script src="/admin/assets/js/custom_js.js"></script>
+
+<script>
+
+    function base_url(arg)
+    {
+        var base_url = document.getElementById('hidden_base_url').value;
+        return base_url + arg;
+    }
+
+    $(document).ready(function () {
+        var msg = '';
+        if (msg != "") {
+            show_success(msg);
+        }
+    });
+
+
+    $(document).ready(function () {
+        var error = '';
+        if (error != "") {
+            show_error(error);
+        }
+    });
+
+    $(document).ready(function () {
+        var warning = '';
+        if (warning != "") {
+            show_warning(warning);
+        }
+
+    });
+
+
+    function validate_form() {
+        name = ($("#name").val()).trim();
+        if (name == "" || name == null) {
+            toastr.error("Name required");
+            return false;
+        }
+        email = ($("#email").val()).trim();
+        if (email == "" || email == null) {
+            toastr.error("Email required");
+            return false;
+        }
+        if (!validateEmail(email)) {
+            toastr.error("Email is Invalid");
+            return false;
+        }
+        subject = ($("#subject").val()).trim();
+        if (subject == "" || subject == null) {
+            toastr.error("Subject required");
+            return false;
+        }
+        contact_number = ($("#contact_number").val()).trim();
+        if (contact_number == "" || contact_number == null) {
+            toastr.error("Contact Number required");
+            return false;
+        }
+        $("#submit").html('<i class="fa fa-spinner fa-spin"></i> Sending');
+//                $("#submit").prop('disabled', true);
+
+        return true;
+    }
+
+    function validateEmail(sEmail) {
+        var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (filter.test(sEmail)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function ValidateSize(file) {
+        var FileSize = file.files[0].size / 1024 / 1024; // in MB
+        if (FileSize > 5) {
+            toastr.error('File size exceeds 5 MB');
+            $(file).val(''); //for clearing with Jquery
+        } else {
+
+        }
+    }
+
+</script>        <script type="text/javascript" src="/pls_assets/js/modal.js">
+        </script>
+        <script>
+// Initialize and add the map
+            function initMap() {
+                // The location of Uluru
+                var uluru = {lat: 12.992025, lng: 77.588826};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                        document.getElementById('map'), {zoom: 14, center: uluru});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+
+
+
+            function load_awards() {
+                $("#awards_display").html("<i class='fa fa-spin fa-spinner'></i> &nbsp;&nbsp;Awards Loading...");
+                $.ajax({
+                    url: base_url("home/awards"),
+                    type: "GET",
+                    success: function (result) {
+                        jsonResult = JSON.parse(result);
+                        if (jsonResult['success'] == "true") {
+                            $("#awards_display").html(jsonResult['ajax_view']);
+
+                        } else {
+                            //something went wrong, contact admin
+                        }
+                    }
+                });
+            }
+
+            function load_publications() {
+                $("#publication_display").html("<i class='fa fa-spin fa-spinner'></i> &nbsp;&nbsp;Publication Loading...");
+                $.ajax({
+                    url: base_url("home/publications"),
+                    type: "GET",
+                    success: function (result) {
+                        jsonResult = JSON.parse(result);
+                        if (jsonResult['success'] == "true") {
+                            $("#publication_display").html(jsonResult['publication_view']);
+                        } else {
+                            //something went wrong, contact admin
+                        }
+                    }
+                });
+            }
+
+            function load_projects() {
+                $("#projects_display").html("<i class='fa fa-spin fa-spinner'></i> &nbsp;&nbsp;Projects Loading...");
+                $.ajax({
+                    url: base_url("home/projects"),
+                    type: "GET",
+                    success: function (result) {
+                        jsonResult = JSON.parse(result);
+                        if (jsonResult['success'] == "true") {
+                            $("#projects_display").html(jsonResult['projects_view']);
+                            isLoaded = true;
+                            initMonolit();
+//                            initparallax();
+                        } else {
+                            //something went wrong, contact admin
+                        }
+                    }
+                });
+            }
+
+            var isLoaded = false;
+            $(document).scroll(function (e) {
+
+                // grab the scroll amount and the window height
+                var scrollAmount = $(window).scrollTop();
+                var documentHeight = $(document).height();
+
+                // calculate the percentage the user has scrolled down the page
+                var scrollPercent = (scrollAmount / documentHeight) * 100;
+
+                if (!isLoaded && scrollPercent > 30) {
+                    // run a function called doSomething
+                    load_projects();
+                    load_awards();
+                    load_publications();
+                }
+
+
+
+            });
+            function display_data(data) {
+                var team_name = $(data).data('teamname');
+                var designation = $(data).data('designation');
+                var bio = $(data).data('bio');
+                $("#modal_team_name").html(team_name);
+                $("#modal_team_designation").html(designation);
+                $("#modal_team_bio").html(bio);
+                $("#myModal").modal("show");
+
+            }
+
+            $(window).scroll(function () {
+
+               
+                if ($(this).scrollTop() >= $('section[data-anchor="aboutus"]').offset().top -200) {
+                    $('nav a').removeClass('act-link');
+                    $('nav a:eq(1)').addClass('act-link');
+                }
+                if ($(this).scrollTop() >= $('section[data-anchor="projectp"]').offset().top -200) {
+                    $('nav a').removeClass('act-link');
+                    $('nav a:eq(2)').addClass('act-link');
+                }
+                if ($(this).scrollTop() >= $('section[data-anchor="awardsp"]').offset().top -200) {
+                    $('nav a').removeClass('act-link');
+                    $('nav a:eq(3)').addClass('act-link');
+                }
+                if ($(this).scrollTop() >= $('section[data-anchor="publicationsp"]').offset().top -200) {
+                    $('nav a').removeClass('act-link');
+                    $('nav a:eq(4)').addClass('act-link');
+                }
+                if ($(this).scrollTop() >= $('section[data-anchor="contactsp"]').offset().top -200) {
+                    $('nav a').removeClass('act-link');
+                    $('nav a:eq(5)').addClass('act-link');
+                }
+
+            });
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmFJo8-fCX7cQR6osdaM8lIbDYEutTwW0&callback=initMap">
+        </script>
+    </body>
 </html>
-
